@@ -162,7 +162,7 @@ class BlipVQA(BlipBase):
     def predict_answers(
         self,
         samples,
-        num_beams=3,
+        num_beams=1, #3
         inference_method="rank",
         max_len=10,
         min_len=1,
